@@ -5,6 +5,7 @@ import Login from "./pages/Login";
 import React from "react"
 import Signup from "./pages/Signup"
 //import { Container } from "react-bootstrap"
+//import PrivateRoute from "./components/PrivateRoute"
 import { AuthProvider } from './contexts/AuthContext';
 import ForgotPassword from "./pages/ForgotPassword"
 import UpdateProfile from "./pages/UpdateProfile"
@@ -17,7 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login/>}/>
-        <Route path="/dashboard" element={<Dashboard/>}/>
+        <Route exact path="/dashboard" element={<Dashboard/>}/>
         <Route path="/signup" element={<Signup/>}/>
         <Route path="/forgot-password" element={<ForgotPassword/>}/>
         <Route path="/update-password" element={<UpdateProfile/>}/>
