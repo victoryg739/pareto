@@ -1,8 +1,7 @@
 import Navbar from "../components/navbar";
  function index(){
     return(
-    <Navbar/>
-
+        <Navbar/>
     );
 }   
 export default index;

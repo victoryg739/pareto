@@ -1,0 +1,10 @@
+.cardBox{
+    width: 80%;
+    margin:100px auto;
+}
+
+.table{
+
+    -webkit-box-shadow: 0px 0px 5px 0px grey; 
+    box-shadow: 0px 0px 5px 0px grey;
+}
