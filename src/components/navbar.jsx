@@ -7,7 +7,7 @@ function navbar(){
   // commit
     return(
       <nav className="navbar navbar-light bg-light">
-        <a className="navbar-brand">Navbar</a>
+        <h1 className="navbar-brand">Navbar</h1>
         <form className="form-inline">
           <button type="button" className={`${navbarCss.navBtn} btn btn-outline-success`}>
             <Link to="/login">Login</Link>

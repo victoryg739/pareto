@@ -6,9 +6,6 @@ import React from "react"
 import Signup from "./pages/Signup"
 import { Container } from "react-bootstrap"
 import { AuthProvider } from './contexts/AuthContext';
-//import { BrowserRouter as Router, Route } from "react-router-dom"
-// import Dashboard from "./pages/Dashboard"
-//import PrivateRoute from "./pages/PrivateRoute"
 import ForgotPassword from "./pages/ForgotPassword"
 import UpdateProfile from "./pages/UpdateProfile"
 
