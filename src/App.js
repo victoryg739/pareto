@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
+<<<<<<< HEAD
 import React from "react"
 import Signup from "./pages/Signup"
 import { Container } from "react-bootstrap"
@@ -11,6 +12,9 @@ import { AuthProvider } from './contexts/AuthContext';
 //import PrivateRoute from "./pages/PrivateRoute"
 import ForgotPassword from "./pages/ForgotPassword"
 import UpdateProfile from "./pages/UpdateProfile"
+=======
+import Dashboard from "./pages/Dashboard";
+>>>>>>> d8f2c6b (test)
 
 function App() {
   return (
@@ -40,6 +44,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login/>}/>
+          <Route path="/dashboard" element={<Dashboard/>}/>
        </Routes>
   </BrowserRouter>
   

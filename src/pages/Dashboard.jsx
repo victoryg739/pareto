@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from "react"
 import { Card, Button, Alert } from "react-bootstrap"
 import { useAuth } from "../contexts/AuthContext"
@@ -39,3 +40,13 @@ export default function Dashboard() {
     </>
   )
 }
+=======
+import StockTable from "../components/StockTable";
+
+function Dashboard(){
+    return(
+        <StockTable/>
+    );
+}
+export default Dashboard;
+>>>>>>> d8f2c6b (test)
