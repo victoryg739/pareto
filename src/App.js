@@ -14,6 +14,7 @@ import UpdateProfile from "./pages/UpdateProfile"
 
 function App() {
   return (
+<<<<<<< HEAD
     <Container
       className="d-flex align-items-center justify-content-center"
       style={{ minHeight: "100vh" }}
@@ -34,5 +35,16 @@ function App() {
     </Container>
   )
 } 
+=======
+    <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login/>}/>
+       </Routes>
+  </BrowserRouter>
+  
+  );
+}
+>>>>>>> f2025ed (test)
 
 export default App;
